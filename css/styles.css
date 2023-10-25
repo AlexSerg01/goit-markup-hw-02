@@ -32,6 +32,7 @@ body {
     color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em 
 }
 
@@ -52,6 +53,7 @@ body {
     color: #434455;
     text-decoration: none;
     font-style: normal;
+    line-height: 1.5;
 }
 
 .address-link:hover,
@@ -190,6 +192,6 @@ body {
 
 .footer-logo-span {
     font-family: "Raleway", sans-serif;
-    color: #f4f4fd;
+    color: #F4F4FD;
 
 }
