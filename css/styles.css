@@ -20,7 +20,7 @@ body {
 }
 
 .logo-span {
-    font-family: "Relawey", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #2e2f42;
 
 }
@@ -86,7 +86,7 @@ body {
     cursor: pointer;
 }
 
-.values {
+.values-tittle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -143,11 +143,11 @@ body {
 
 .portfolio-tittle {
     color: #2e2f42;
-    font-size: 36px;
+    font-size: 20px;
     text-transform: capitalize;
     font-weight: 500;
-    line-height: 1.11;
-    text-align: center;
+    line-height: 1.2;
+    color: #2e2f42;
     letter-spacing: 0.02em
 }
 
@@ -163,7 +163,7 @@ body {
     color: #434455;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
