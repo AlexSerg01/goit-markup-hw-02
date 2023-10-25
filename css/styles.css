@@ -20,6 +20,7 @@ body {
 }
 
 .logo-span {
+    font-family: "Relawey", sans-serif;
     color: #2e2f42;
 
 }
@@ -37,7 +38,7 @@ body {
 
 .nav-link:hover,
 .nav-link:active {
-    color: #2e2f42;
+    color: #404bbf;
 }
 
 .address {
@@ -95,6 +96,13 @@ body {
     list-style-type: none;
 }
 
+.values-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .section-our-team {
     background-color: #F4F4FD
@@ -102,9 +110,10 @@ body {
 
 .our-team-tittle {
     color: #2e2f42;
-    font-size: 36px;
+    font-size: 20px;
+    font-weight: 500;
     text-transform: capitalize;
-    line-height: 1.11;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -117,15 +126,23 @@ body {
     list-style-type: none;
 }
 
+.member-team {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .ocupation {
     font-size: 16px;
 }
 
 .portfolio-tittle {
     color: #2e2f42;
-    font-size: 36px;
+    font-size: 20px;
     text-transform: capitalize;
-    line-height: 1.11;
+    font-weight: 500;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em
 }
@@ -135,8 +152,8 @@ body {
 }
 
 .main-text {
-    color: #2e2f42;
-    font-size: 20px;
+    color: #434455;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
