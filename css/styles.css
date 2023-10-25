@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-    font-family: "Ralaway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -130,9 +130,9 @@ body {
 .member-team {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    line-height: 1.2;
 }
 
 .ocupation {
@@ -175,5 +175,11 @@ body {
 }
 
 .footer-text {
-    color: #F4F4FD;
+    color: #f4f4fd;
+}
+
+.logo-span {
+    font-family: "Raleway", sans-serif;
+    color: #f4f4fd;
+
 }
