@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-    font-family: "Relawey", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -37,7 +37,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -86,10 +86,12 @@ body {
     cursor: pointer;
 }
 
-.values-tittle {
+.values {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .values-list {
@@ -110,10 +112,10 @@ body {
 
 .our-team-tittle {
     color: #2e2f42;
-    font-size: 20px;
+    font-size: 36px;
     font-weight: 500;
     text-transform: capitalize;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -127,6 +129,7 @@ body {
 }
 
 .member-team {
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -135,14 +138,15 @@ body {
 
 .ocupation {
     font-size: 16px;
+    line-height: 1.5;
 }
 
 .portfolio-tittle {
     color: #2e2f42;
-    font-size: 20px;
+    font-size: 36px;
     text-transform: capitalize;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em
 }
@@ -164,5 +168,5 @@ body {
 }
 
 .footer-text {
-    color: #F4F4FD
+    color: #F4F4FD;
 }
