@@ -28,8 +28,7 @@ body {
     list-style-type: none;
 }
 
-.nav-link,
-.nav-link-active {
+.nav-link {
     color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
@@ -37,8 +36,12 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus, {
-    color: #404bbf;
+.nav-link:active {
+    color: #2e2f42;
+}
+
+.address {
+    font-style: normal
 }
 
 .address-menu {
@@ -65,20 +68,36 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em
 }
 
-.button {
+.order-button {
     background-color: #4d5ae5;
-    color:#ffffff
+    color:#ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.values-tittle {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 .values-list {
     list-style-type: none;
 }
 
-.values {
-    color: #2e2f42;
-    font-size: 20px;
+
+.section-our-team {
+    background-color: #F4F4FD
 }
 
 .our-team-tittle {
@@ -86,15 +105,20 @@ body {
     font-size: 36px;
     text-transform: capitalize;
     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+    background-color: #ffffff;
 }
 
 .our-team-list {
     list-style-type: none;
 }
 
-.member-team {
-    color: #2e2f42;
-    font-size: 20px;
+.ocupation {
+    font-size: 16px;
 }
 
 .portfolio-tittle {
@@ -102,13 +126,18 @@ body {
     font-size: 36px;
     text-transform: capitalize;
     line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em
 }
 
 .portfolio-list {
     list-style-type: none;
 }
 
-.portfolio {
+.main-text {
     color: #2e2f42;
     font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
