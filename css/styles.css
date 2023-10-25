@@ -4,12 +4,11 @@ body {
     color: #434455;
     font-size: 16px;
     font-style: 500;
-    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .logo {
-    font-family: "Relawey", sans-serif;
+    font-family: "Ralaway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -131,7 +130,7 @@ body {
 .member-team {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -149,6 +148,14 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em
+}
+
+.portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42
 }
 
 .portfolio-list {
